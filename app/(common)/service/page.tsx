@@ -1,7 +1,5 @@
 import TextSlider from '@/components/slider/TextSlider'
 import Subtitle from '@/components/subtitle/Subtitle'
-import Link from 'next/link'
-import React from 'react'
 import { Metadata } from 'next'
 import { RightArrowIcon } from '@/components/icons'
 import { serviceData } from '../home-2/page'
@@ -18,7 +16,7 @@ const Service = () => {
          <main className="pt-16 sm:pt-20 md:pt-24 xl:pt-32">
             <div className="container mx-auto px-5 md:px-0">
                <Subtitle
-                  title="Our services"
+                  title="My services"
                   description="Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                   amet sint. Velit officia consequat duis enim velit mollit.
                   lorem ipsum"

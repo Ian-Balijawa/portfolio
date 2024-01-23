@@ -4,11 +4,11 @@ import Banner from '@/components/banner/Banner'
 import ContactUs from '@/components/contact-us/ContactUs'
 import Education from '@/components/education/Education'
 import Experience from '@/components/experience/Experience'
-import PortfolioCards from '@/components/portfolioCard/PortfolioCards'
 import BlogSlider from '@/components/slider/BlogSlider'
 import TestimonialSlider from '@/components/slider/TestimonialSlider'
 import FlipCard from '@/components/flipCard/FlipCard'
 import SmallSubtitle from '@/components/subtitle/SmallSubtitle'
+import ProjectSliderWithButton from '@/components/slider/ProjectSliderWithButton'
 
 export const metadata: Metadata = {
    title: 'Ian | Balijawa',
@@ -57,17 +57,16 @@ export default function Home() {
                   <Experience />
                </div>
                {/* portfolio section  */}
-               {/* portfolio section  */}
                <div className="mt-16 md:mt-24 xl:mt-28" id="portfolio">
                   <h2 className="text-2xl md:text-3xl xl:text-5xl text-base-content font-bold text-center">
                      Portfolio
                   </h2>
-                  <p className="md:max-w-[438px] text-center text-base text-base-content/60 mx-auto mt-4">
+                  <p className="md:max-w-[438px] text-center text-base text-base-content/60 mb-4 mx-auto mt-4">
                      Amet minim mollit non deserunt ullamco est sit aliqua dolor
                      do amet sint. Velit officia consequat duis enim velit
                      mollit. lorem ipsum
                   </p>
-                  <PortfolioCards />
+                  <ProjectSliderWithButton />
                </div>
                {/* testimonial section   */}
                <div className="mt-16 md:mt-24 xl:mt-28">
