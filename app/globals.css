@@ -1,0 +1,227 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* carosel class  */
+
+/* .home_carousel > div .slick-track > div {
+   padding-right: 24px;
+} */
+
+html {
+   scroll-behavior: smooth;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                       Container width customized CSS                       */
+/* -------------------------------------------------------------------------- */
+
+/* Style For only home page  */
+
+.largeContainer {
+   max-width: 1472px;
+   width: 100%;
+   margin: 0 auto;
+}
+
+@media (max-width: 1340px) {
+   .largeContainer {
+      max-width: 1180px;
+      margin: 0 auto;
+   }
+   .responsive_status {
+      display: block;
+   }
+   .desktop_sidebar {
+      display: none;
+   }
+}
+
+@media (min-width: 1341px) {
+   .responsive_status {
+      display: none;
+   }
+   .desktop_sidebar {
+      display: block;
+   }
+}
+
+@media (min-width: 1536px) {
+   .largeContainer {
+      max-width: 1472px;
+   }
+}
+
+/* Set the width and height of the scrollbar */
+.scrollbarStyle::-webkit-scrollbar {
+   width: 6px;
+   height: 6px;
+}
+
+/* Hide the scrollbar thumb by default */
+.scrollbarStyle::-webkit-scrollbar-thumb {
+   background-color: transparent;
+}
+
+.slick-track {
+   display: flex !important;
+   align-items: center;
+   gap: 24px;
+}
+
+@media (max-width: 767px) {
+   .slick-track {
+      gap: 16px;
+   }
+}
+
+@media (max-width: 575px) {
+   .slick-track {
+      gap: 8px;
+   }
+}
+
+@media (max-width: 479px) {
+   .slick-track {
+      display: block !important;
+      gap: 0px;
+   }
+}
+
+.line-clamp-1 {
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   -webkit-line-clamp: 1;
+}
+
+.line-clamp-2 {
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   -webkit-line-clamp: 2;
+}
+
+.line-clamp-3 {
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   -webkit-line-clamp: 3;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                       Card Border Style                                     */
+/* -------------------------------------------------------------------------- */
+.card::before {
+   position: absolute;
+   content: '';
+   height: 0%;
+   width: 0%;
+   border: 1px solid hsl(var(--p) / 1);
+   bottom: 0;
+   right: 0;
+   border-top: none;
+   border-left: none;
+   opacity: 0;
+   transition: all 0.5s ease-in-out;
+   border-image: linear-gradient(
+         130deg,
+         hsl(var(--p) / 1),
+         transparent,
+         transparent,
+         hsl(var(--p) / 1)
+      )
+      1;
+}
+
+.card::after {
+   position: absolute;
+   content: '';
+   height: 0%;
+   width: 0%;
+   border: 1px solid hsl(var(--p) / 1);
+   top: 0;
+   left: 0;
+   border-right: none;
+   border-bottom: none;
+   opacity: 0;
+   transition: all 0.5s ease-in-out;
+   border-image: linear-gradient(
+         130deg,
+         hsl(var(--p) / 1),
+         transparent,
+         transparent,
+         hsl(var(--p) / 1)
+      )
+      1;
+}
+
+.card:hover::before {
+   height: 100%;
+   width: 100%;
+   opacity: 1;
+}
+.card:hover::after {
+   height: 100%;
+   width: 100%;
+   opacity: 1;
+}
+
+.service_carousel .slick-dots li button:before {
+   color: hsl(var(--bc) / 1) !important;
+   font-size: 8px !important;
+}
+.dotBlack_carousel .slick-dots li button:before {
+   color: #131313 !important;
+   font-size: 8px !important;
+}
+.slick-dots li button:before {
+   color: hsl(var(--p) / 1) !important;
+   font-size: 8px !important;
+}
+
+.flip-box {
+   perspective: 1000px;
+}
+
+.flip-box-inner {
+   transition: transform 0.8s;
+   transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+   transform: rotateY(180deg);
+}
+
+.flip-box-front,
+.flip-box-back {
+   -webkit-backface-visibility: hidden;
+   backface-visibility: hidden;
+}
+
+.flip-box-back {
+   transform: rotateY(180deg);
+}
+
+@media (min-width: 993px) {
+   .formBox {
+      border-top-left-radius: 12px;
+      border-bottom-left-radius: 12px;
+   }
+}
+
+@media (max-width: 992px) {
+   .fullBorder {
+      border-radius: 12px;
+   }
+}
+
+@media (min-width: 993px) {
+   .contentBorder {
+      border-top-right-radius: 12px;
+      border-bottom-right-radius: 12px;
+   }
+}
