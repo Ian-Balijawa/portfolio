@@ -1,4 +1,3 @@
-import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Metadata } from 'next'
@@ -6,9 +5,9 @@ import { LeftArrowIcon, RightArrowIcon } from '@/components/icons'
 import TextSlider from '@/components/slider/TextSlider'
 
 export const metadata: Metadata = {
-   title: 'Explore our latest project.',
+   title: 'Exploremylatest project.',
    description:
-      'Discover how we helped Business achieve their objectives. Our portfolio showcases our capabilities and the successful outcomes we have delivered for our clients. Contact us today to learn more about our services and how we can help you reach your goals',
+      'Discover how we helped Business achieve their objectives.Myportfolio showcasesmycapabilities and the successful outcomes we have delivered formyclients. Contact us today to learn more aboutmyservices and how we can help you reach your goals',
 }
 
 const PortfolioSingle = () => {

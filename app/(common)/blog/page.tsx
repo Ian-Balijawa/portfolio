@@ -1,5 +1,3 @@
-import React from 'react'
-import Link from 'next/link'
 import { Metadata } from 'next'
 import BlogCardWithHover from '@/components/blogCard/BlogCardWithHover'
 import TextSlider from '@/components/slider/TextSlider'
@@ -9,7 +7,7 @@ import { RightArrowIcon } from '@/components/icons'
 export const metadata: Metadata = {
    title: 'Latest News, Tips, and Insights on your niche',
    description:
-      'Description: Stay up-to-date with the latest news, trends, and insights on niche. Our blog covers everything you with valuable information and tips to help you improve your niche',
+      'Description: Stay up-to-date with the latest news, trends, and insights on niche.Myblog covers everything you with valuable information and tips to help you improve your niche',
 }
 
 const Blog = () => {

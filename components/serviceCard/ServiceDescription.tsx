@@ -1,4 +1,3 @@
-import React from 'react'
 const ServiceDescription = () => {
    return (
       <div className="px-5 lg:px-0">
@@ -72,7 +71,7 @@ const ServiceDescription = () => {
          {/* pricing plan  */}
          <div className="mt-8 md:mt-16">
             <h5 className="text-lg md:text-xl xl:text-2xl text-base-content">
-               We Have Exclusive Plan In Our Pricing
+               We Have Exclusive Plan InMyPricing
             </h5>
             <p className="mt-4 md:mt-6 mb-6 text-base text-base-content/60">
                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et metus

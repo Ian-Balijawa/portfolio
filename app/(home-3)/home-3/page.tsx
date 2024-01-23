@@ -16,7 +16,7 @@ import Subtitle from '@/components/subtitle/Subtitle'
 export const metadata: Metadata = {
    title: 'Home-3',
    description:
-      'Explore our comprehensive guides, tutorials, and resources to help you master Topic. Start your journey today with us',
+      'Explore my comprehensive guides, tutorials, and resources to help you master Topic. Start your journey today with us',
 }
 
 const HomeThree = () => {

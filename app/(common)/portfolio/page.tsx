@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import { Fragment } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Metadata } from 'next'
@@ -8,7 +8,7 @@ import { RightArrowIcon } from '@/components/icons'
 export const metadata: Metadata = {
    title: 'Start your journey today with us',
    description:
-      'Explore our comprehensive guides, tutorials, and resources to help you master Topic. Start your journey today with us Browse through our portfolio and discover how we can help you improve your Business. Contact us today to learn more about our services and how we can help you achieve your goals.',
+      'Exploremycomprehensive guides, tutorials, and resources to help you master Topic. Start your journey today with us Browse throughmyportfolio and discover how we can help you improve your Business. Contact us today to learn more aboutmyservices and how we can help you achieve your goals.',
 }
 
 const Portfolio = () => {

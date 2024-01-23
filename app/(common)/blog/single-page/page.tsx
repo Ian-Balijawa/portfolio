@@ -1,4 +1,3 @@
-import React from 'react'
 import { Metadata } from 'next'
 import BlogDetails from '@/components/blogDetails/BlogDetails'
 import Pagination from '@/components/pagination/Pagination'
@@ -7,7 +6,7 @@ import TextSlider from '@/components/slider/TextSlider'
 export const metadata: Metadata = {
    title: 'Latest News, Tips, and Insights on your niche',
    description:
-      'Read our latest blog post and gain valuable insights and tips from our expert contributors. Our comprehensive guide covers everything you need to know about your niche including many Topics. Discover new ideas and strategies to improve your niche and stay ahead of the competition. Join our community of readers and learn from the best in the business today.',
+      'Readmylatest blog post and gain valuable insights and tips frommyexpert contributors.Mycomprehensive guide covers everything you need to know about your niche including many Topics. Discover new ideas and strategies to improve your niche and stay ahead of the competition. Joinmycommunity of readers and learn from the best in the business today.',
 }
 
 const SinglePage = () => {

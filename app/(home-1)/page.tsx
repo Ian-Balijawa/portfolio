@@ -11,9 +11,9 @@ import FlipCard from '@/components/flipCard/FlipCard'
 import SmallSubtitle from '@/components/subtitle/SmallSubtitle'
 
 export const metadata: Metadata = {
-   title: 'Welcome to our Website',
+   title: 'Ian | Balijawa',
    description:
-      'Explore our comprehensive guides, tutorials, and resources to help you master Topic. Start your journey today with us',
+      'Exploremycomprehensive guides, tutorials, and resources to help you master Topic. Start your journey today with us',
 }
 
 export default function Home() {
