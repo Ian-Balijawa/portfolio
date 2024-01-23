@@ -4,7 +4,11 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const PortfolioCards = () => {
-   const data = [
+   const data: {
+      id: number
+      src: string
+      category: string
+   }[] = [
       {
          id: 1,
          src: '/item.png',
@@ -23,7 +27,7 @@ const PortfolioCards = () => {
       {
          id: 4,
          src: '/item4.png',
-         title: 'Branding',
+         category: 'Branding',
       },
       {
          id: 5,
@@ -87,7 +91,7 @@ const PortfolioCards = () => {
                      <div className="relative group">
                         <Image
                            src={item.src}
-                           alt=""
+                           alt={item.src}
                            className="w-full rounded-xl"
                            width={324}
                            height={324}
