@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import React from 'react'
 
 const TestimonialCard = () => {
    return (
@@ -8,7 +7,7 @@ const TestimonialCard = () => {
             <div className="avatar">
                <div className="w-16 rounded-full">
                   <Image
-                     src="/profile.png"
+                     src="/person.png"
                      alt="Picture of the author"
                      width={64}
                      height={64}

@@ -23,7 +23,7 @@ const Largebanner = () => {
             </div>
             <div className="lg:max-w-[385px] w-full lg:ml-auto">
                <h1 className="text-3xl sm:text-4xl font-medium text-base-content ">
-                  I&apos;m a Professional Product Designer in New York
+                  I&apos;m a Professional Software Engineer
                </h1>
                <p className="text-base-content/60 mt-5">
                   Meet Ian Balijawa, a product designer with a passion for

@@ -8,7 +8,7 @@ import { RightArrowIcon } from '@/components/icons'
 export const metadata: Metadata = {
    title: 'Start your journey today with us',
    description:
-      'Exploremycomprehensive guides, tutorials, and resources to help you master Topic. Start your journey today with us Browse throughmyportfolio and discover how we can help you improve your Business. Contact us today to learn more aboutmyservices and how we can help you achieve your goals.',
+      'Explore my comprehensive guides, tutorials, and resources to help you master Topic. Start your journey today with us Browse through my portfolio and discover how we can help you improve your Business. Contact us today to learn more about my services and how we can help you achieve your goals.',
 }
 
 const Portfolio = () => {
@@ -76,42 +76,42 @@ export default Portfolio
 
 const cards = [
    {
-      title: 'Senior Product Designer',
+      title: 'Senior Software Engineer',
       company: 'Google',
       image: '/portfolio/item.png',
    },
    {
-      title: 'Senior Product Designer',
+      title: 'Senior Software Engineer',
       company: 'Google',
       image: '/portfolio/Item (1).png',
    },
    {
-      title: 'Senior Product Designer',
+      title: 'Senior Software Engineer',
       company: 'Google',
       image: '/portfolio/Item (2).png',
    },
    {
-      title: 'Senior Product Designer',
+      title: 'Senior Software Engineer',
       company: 'Google',
       image: '/portfolio/Item (3).png',
    },
    {
-      title: 'Senior Product Designer',
+      title: 'Senior Software Engineer',
       company: 'Google',
       image: '/portfolio/Item (4).png',
    },
    {
-      title: 'Senior Product Designer',
+      title: 'Senior Software Engineer',
       company: 'Google',
       image: '/portfolio/Item (5).png',
    },
    {
-      title: 'Senior Product Designer',
+      title: 'Senior Software Engineer',
       company: 'Google',
       image: '/portfolio/Item (6).png',
    },
    {
-      title: 'Senior Product Designer',
+      title: 'Senior Software Engineer',
       company: 'Google',
       image: '/portfolio/Item (7).png',
    },

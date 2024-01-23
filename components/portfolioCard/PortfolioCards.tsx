@@ -4,6 +4,54 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const PortfolioCards = () => {
+   const data = [
+      {
+         id: 1,
+         src: '/item.png',
+         category: 'UI Design',
+      },
+      {
+         id: 2,
+         src: '/item2.png',
+         category: 'Web Templates',
+      },
+      {
+         id: 3,
+         src: '/item3.png',
+         category: 'Logo',
+      },
+      {
+         id: 4,
+         src: '/item4.png',
+         title: 'Branding',
+      },
+      {
+         id: 5,
+         src: '/item5.png',
+         category: 'Web Templates',
+      },
+      {
+         id: 6,
+         src: '/item6.png',
+         category: 'Logo',
+      },
+      {
+         id: 7,
+         src: '/item7.png',
+         category: 'UI Design',
+      },
+      {
+         id: 8,
+         src: '/item8.png',
+         category: 'Web Templates',
+      },
+      {
+         id: 9,
+         src: '/item9.png',
+         category: 'Branding',
+      },
+   ]
+
    const [portfolioData, setPortfolioData] = useState(data)
    const [caregory, seCategory] = useState('All categories')
 
@@ -96,53 +144,5 @@ const portfolioMenu = [
    {
       id: 5,
       title: 'Branding',
-   },
-]
-
-const data = [
-   {
-      id: 1,
-      src: '/item.png',
-      category: 'UI Design',
-   },
-   {
-      id: 2,
-      src: '/item2.png',
-      category: 'Web Templates',
-   },
-   {
-      id: 3,
-      src: '/item3.png',
-      category: 'Logo',
-   },
-   {
-      id: 4,
-      src: '/item4.png',
-      title: 'Branding',
-   },
-   {
-      id: 5,
-      src: '/item5.png',
-      category: 'Web Templates',
-   },
-   {
-      id: 6,
-      src: '/item6.png',
-      category: 'Logo',
-   },
-   {
-      id: 7,
-      src: '/item7.png',
-      category: 'UI Design',
-   },
-   {
-      id: 8,
-      src: '/item8.png',
-      category: 'Web Templates',
-   },
-   {
-      id: 9,
-      src: '/item9.png',
-      category: 'Branding',
    },
 ]

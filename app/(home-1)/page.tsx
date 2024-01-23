@@ -13,7 +13,7 @@ import SmallSubtitle from '@/components/subtitle/SmallSubtitle'
 export const metadata: Metadata = {
    title: 'Ian | Balijawa',
    description:
-      'Exploremycomprehensive guides, tutorials, and resources to help you master Topic. Start your journey today with us',
+      'Explore my comprehensive guides, tutorials, and resources to help you master Topic. Start your journey today with us',
 }
 
 export default function Home() {

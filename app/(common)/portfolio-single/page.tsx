@@ -5,9 +5,9 @@ import { LeftArrowIcon, RightArrowIcon } from '@/components/icons'
 import TextSlider from '@/components/slider/TextSlider'
 
 export const metadata: Metadata = {
-   title: 'Exploremylatest project.',
+   title: 'Explore my latest project.',
    description:
-      'Discover how we helped Business achieve their objectives.Myportfolio showcasesmycapabilities and the successful outcomes we have delivered formyclients. Contact us today to learn more aboutmyservices and how we can help you reach your goals',
+      'Discover how we helped Business achieve their objectives.Myportfolio showcases my capabilities and the successful outcomes we have delivered for my clients. Contact us today to learn more about my services and how we can help you reach your goals',
 }
 
 const PortfolioSingle = () => {

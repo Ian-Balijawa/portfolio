@@ -118,7 +118,7 @@ const SideBar = () => {
             href={'#'}
             className="flex items-center justify-center gap-8 text-base font-medium text-primary-content btn btn-primary rounded-lg py-3 text-center w-full"
          >
-            Download My CV
+            DOWNLOAD MY CV
             <svg
                width="20"
                height="18"
@@ -214,7 +214,7 @@ const content = [
    },
    {
       title: 'Age:',
-      value: '24 Years',
+      value: '26 years',
    },
    {
       title: 'Freelance:',

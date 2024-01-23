@@ -1,5 +1,3 @@
-import React from 'react'
-
 const SkillAndExperience = () => {
    return (
       <section className="flex flex-col xl:flex-row gap-16 items-center justify-between">
@@ -193,13 +191,13 @@ const ExperienceData = [
    {
       id: 2,
       date: 'Jan 1016 - Dec 2021',
-      title: 'Senior Product Designer',
+      title: 'Senior Software Engineer',
       company: 'Google',
    },
    {
       id: 1,
       date: 'Jan 1016 - Dec 2021',
-      title: 'Junior Product Designer',
+      title: 'Junior Software Engineer',
       company: 'Facebook',
    },
 ]

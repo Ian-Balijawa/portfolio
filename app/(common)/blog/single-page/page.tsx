@@ -6,7 +6,7 @@ import TextSlider from '@/components/slider/TextSlider'
 export const metadata: Metadata = {
    title: 'Latest News, Tips, and Insights on your niche',
    description:
-      'Readmylatest blog post and gain valuable insights and tips frommyexpert contributors.Mycomprehensive guide covers everything you need to know about your niche including many Topics. Discover new ideas and strategies to improve your niche and stay ahead of the competition. Joinmycommunity of readers and learn from the best in the business today.',
+      'Read my latest blog post and gain valuable insights and tips from my expert contributors.Mycomprehensive guide covers everything you need to know about your niche including many Topics. Discover new ideas and strategies to improve your niche and stay ahead of the competition. Join my community of readers and learn from the best in the business today.',
 }
 
 const SinglePage = () => {

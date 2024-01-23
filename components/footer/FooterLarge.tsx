@@ -103,7 +103,7 @@ const FooterLarge = () => {
                            href="tel:+256787444814"
                            className="text-base-content/70 hover:text-primary transition hover:duration-300"
                         >
-                           +1 123 456 789
+                           +256787444814
                         </a>
                      </div>
                   ))}
@@ -112,7 +112,7 @@ const FooterLarge = () => {
             <div>
                <h6 className="text-base text-base-content/80">ADDRESS</h6>
                <p className="mt-6 text-base text-base-content">
-                  3266 Cityview Drive <br /> Philadelphia, PA
+                  Makerere University <br /> Kampala
                </p>
             </div>
          </div>

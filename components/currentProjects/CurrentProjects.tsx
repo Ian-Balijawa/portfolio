@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import React from 'react'
 
 const CurrentProjects = () => {
    return (
@@ -23,7 +22,7 @@ const CurrentProjects = () => {
          <div className="p-2.5 md:p-5 xl:p-10">
             <h6 className="text-primary text-base">ABOUT ME</h6>
             <h3 className="text-2xl sm:text-3xl text-base-content mt-4">
-               Hi from Rayan, Product Designer and Frontend Developer
+               Hi from Rayan, Software Engineer and Frontend Developer
             </h3>
             <p className="mt-6 text-base text-base-content">
                I have proficient in a range of design tools, including Figma,
@@ -34,7 +33,7 @@ const CurrentProjects = () => {
             <div className="mt-10">
                <button className="btn btn-primary border-none py-1.5 pl-6 pr-1.5 rounded-full flex items-center justify-center gap-5 w-fit">
                   <span className="text-base font-medium text-primary-content">
-                     Download My CV
+                     DOWNLOAD MY CV
                   </span>
                   <span className="p-2 bg-primary-content rounded-full">
                      <svg

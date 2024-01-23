@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import React, { Fragment } from 'react'
+import { Fragment } from 'react'
 
 const ProjectCard = () => {
    return (
@@ -18,7 +18,7 @@ const ProjectCard = () => {
          </div>
          <p className="text-base font-medium text-base-content mt-5 ">Google</p>
          <h1 className="text-xl sm:text-2xl font-semibold text-base-content pt-1 mb-4 hover:text-primary transition duration-300 ease-in-out capitalize line-clamp-1">
-            <Link href="/portfolio-single">Senior Product Designer</Link>
+            <Link href="/portfolio-single">Senior Software Engineer</Link>
          </h1>
          <Link
             href="/portfolio-single"

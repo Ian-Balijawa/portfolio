@@ -15,7 +15,9 @@ const Experience = () => {
                         {item.company}
                      </h5>
                      <div className="flex items-center gap-4 mt-2 xl:mt-3">
-                        <p className="text-base text-base-content">Student</p>
+                        <p className="text-base text-base-content">
+                           Backend Developer
+                        </p>
                         <p className="text-xs font-medium text-primary px-3 py-1 bg-primary/10 w-fit rounded-md">
                            {item.time}
                         </p>
