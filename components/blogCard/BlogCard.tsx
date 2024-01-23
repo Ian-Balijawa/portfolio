@@ -1,13 +1,12 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
 
 const BlogCard = () => {
    return (
       <div className="bg-base-100 rounded-xl">
          <Link href="/blog/single-page">
             <Image
-               src="/blog.png"
+               src="/cardImg.png"
                alt="Picture of the author"
                className="w-full rounded-xl"
                width={324}

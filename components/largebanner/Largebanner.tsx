@@ -2,9 +2,9 @@ import Link from 'next/link'
 
 const Largebanner = () => {
    return (
-      <div className="container mx-auto px-5 sm:px-0 pt-20">
+      <div className="container mt-20 bg-[url('/bg.png')] mx-auto px-5 sm:px-0 pt-20">
          <div className="flex flex-wrap lg:flex-nowrap items-center justify-between gap-12 lg:h-[470px]">
-            <div className="w-full bg-[url('/bannerImage2.png')] bg-no-repeat bg-right bg-contain md:bg-auto pt-0 sm:pt-10 md:pt-20 lg:pt-7 md:h-[470px] lg:h-full">
+            <div className="w-full px-4 bg-no-repeat bg-right bg-contain md:bg-auto pt-0 sm:pt-10 md:pt-20 lg:pt-7 md:h-[470px] lg:h-full">
                <h1 className="text-3xl sm:text-5xl md:text-[80px] lg:text-8xl font-bold text-base-content w-[201px] sm:max-w-[464px] !leading-[50px] sm:!leading-[60px] md:!leading-[96px] lg:!leading-[120px]">
                   Ian Balijawa
                </h1>
@@ -21,7 +21,7 @@ const Largebanner = () => {
                   ))}
                </div>
             </div>
-            <div className="lg:max-w-[385px] w-full lg:ml-auto">
+            <div className="lg:max-w-[385px] w-full mx-10 lg:ml-auto">
                <h1 className="text-3xl sm:text-4xl font-medium text-base-content ">
                   I&apos;m a Professional Software Engineer
                </h1>
