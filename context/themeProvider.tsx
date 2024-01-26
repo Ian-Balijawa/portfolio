@@ -41,7 +41,7 @@ export function Providers({ children, ...props }: Props) {
             'winter',
          ]}
          enableSystem={false}
-         defaultTheme="night"
+         defaultTheme="black"
          {...props}
       >
          {children}
