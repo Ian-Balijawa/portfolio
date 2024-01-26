@@ -6,9 +6,10 @@ import Education from '@/components/education/Education'
 import Experience from '@/components/experience/Experience'
 import BlogSlider from '@/components/slider/BlogSlider'
 import TestimonialSlider from '@/components/slider/TestimonialSlider'
-import FlipCard from '@/components/flipCard/FlipCard'
 import SmallSubtitle from '@/components/subtitle/SmallSubtitle'
 import ProjectSliderWithButton from '@/components/slider/ProjectSliderWithButton'
+import ServiceCard from '@/components/serviceCard/ServiceCard'
+import { serviceData } from '@/app/(common)/home-2/page'
 
 export const metadata: Metadata = {
    title: 'Ian | Balijawa',
@@ -29,33 +30,19 @@ export default function Home() {
                   />
                   {/* FlipCard section  */}
                   <div className="mt-10 md:mt-12 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-6">
-                     {[1, 2, 3, 4, 5, 6].map((item: any, index: any) => (
+                     {/* {[1, 2, 3, 4, 5, 6].map((item: any, index: any) => (
                         <div key={item.id}>
                            <FlipCard />
+                        </div>
+                     ))} */}
+                     {serviceData.map((item: any, index: any) => (
+                        <div key={index}>
+                           <ServiceCard data={item} />
                         </div>
                      ))}
                   </div>
                </div>
-               {/* education section  */}
-               <div className="mt-16 md:mt-24 xl:mt-28">
-                  <div className="mb-10 xl:mb-12">
-                     <SmallSubtitle
-                        title="Education"
-                        description="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum"
-                     />
-                  </div>
-                  <Education />
-               </div>
-               {/* experience section  */}
-               <div className="mt-16 md:mt-24 xl:mt-28">
-                  <div className="mb-10 xl:mb-12">
-                     <SmallSubtitle
-                        title="Experience"
-                        description="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum"
-                     />
-                  </div>
-                  <Experience />
-               </div>
+
                {/* portfolio section  */}
                <div className="mt-16 md:mt-24 xl:mt-28" id="portfolio">
                   <h2 className="text-2xl md:text-3xl xl:text-5xl text-base-content font-bold text-center">
@@ -87,6 +74,26 @@ export default function Home() {
                      />
                   </div>
                   <BlogSlider />
+               </div>
+               {/* education section  */}
+               <div className="mt-16 md:mt-24 xl:mt-28">
+                  <div className="mb-10 xl:mb-12">
+                     <SmallSubtitle
+                        title="Education"
+                        description="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum"
+                     />
+                  </div>
+                  <Education />
+               </div>
+               {/* experience section  */}
+               <div className="mt-16 md:mt-24 xl:mt-28">
+                  <div className="mb-10 xl:mb-12">
+                     <SmallSubtitle
+                        title="Experience"
+                        description="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum"
+                     />
+                  </div>
+                  <Experience />
                </div>
                {/* contact us section   */}
                <div id="contact-us">

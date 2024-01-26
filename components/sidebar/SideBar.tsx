@@ -49,7 +49,7 @@ const SideBar = () => {
             <div className="flex items-center justify-between">
                <p className="text-sm text-base-content">Email</p>
                <a
-                  href="mailto: abc@example.com"
+                  href="mailto: ianbalijawa16@gmail.com"
                   className="text-sm text-base-content/60 hover:text-primary hover:duration-300 transition"
                >
                   ianbalijawa16@gmail.com

@@ -12,6 +12,7 @@ import Subtitle from '@/components/subtitle/Subtitle'
 import SubtitleWithButton from '@/components/subtitle/SubtitleWithButton'
 import Link from 'next/link'
 import Resume from '@/components/education/Resume'
+import FlipCard from '@/components/flipCard/FlipCard'
 
 export const metadata = {
    title: 'Home Page 2',
@@ -38,7 +39,7 @@ const HomeTwo = () => {
                   <div className="mt-10 md:mt-12 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-6">
                      {serviceData.map((item: any, index: any) => (
                         <div key={index}>
-                           <ServiceCard data={item} />
+                           <FlipCard data={item} />
                         </div>
                      ))}
                   </div>

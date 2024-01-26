@@ -56,9 +56,9 @@ const RightNavbar = () => {
                         {item}
                      </span>
                      <div className="flex flex-shrink-0 flex-wrap gap-1 h-full">
-                        <div className="bg-primary w-2 rounded"></div>{' '}
-                        <div className="bg-secondary w-2 rounded"></div>{' '}
-                        <div className="bg-accent w-2 rounded"></div>{' '}
+                        <div className="bg-primary w-2 rounded"></div>
+                        <div className="bg-secondary w-2 rounded"></div>
+                        <div className="bg-accent w-2 rounded"></div>
                         <div className="bg-neutral w-2 rounded"></div>
                      </div>
                   </li>
