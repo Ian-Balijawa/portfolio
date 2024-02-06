@@ -70,7 +70,7 @@ const ProjectSliderWithButton = () => {
    return (
       <div>
          <Slider {...settings} ref={sliderRef}>
-            {[1, 2, 3, 4, 5, 6].map((item, index) => (
+            {[1, 2, 3, 4].map((item, index) => (
                <ProjectCard key={index} />
             ))}
          </Slider>

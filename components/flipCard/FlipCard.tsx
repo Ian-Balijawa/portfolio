@@ -39,7 +39,7 @@ const FlipCard = ({ data }: FlipCardPropsType) => {
                      aliqua.
                   </p>
                   <Link
-                     href="/service/single-page"
+                     href="/service/1"
                      className="bg-primary-content hover:bg-primary-content/90 py-2.5 px-4 rounded-lg flex items-center justify-center w-fit gap-3"
                   >
                      <span className="text-base font-medium text-primary">

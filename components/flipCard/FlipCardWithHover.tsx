@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import React from 'react'
 
 const FlipCardWithHover = () => {
    return (
@@ -28,7 +27,7 @@ const FlipCardWithHover = () => {
             </svg>
          </div>
          <h3 className="text-xl font-semibold text-base-content mt-8 group-hover:text-primary group-hover:duration-300 transition z-10">
-            <Link href="/service/single-page">Web Development</Link>
+            <Link href="/service/1">Web Development</Link>
          </h3>
          <div className="flex flex-col gap-3 mt-6">
             {Data.map((item: any, index) => (

@@ -1,12 +1,11 @@
 import Link from 'next/link'
-import React from 'react'
 
 const Pagination = () => {
    return (
       <div className="flex items-center justify-between">
          <div className="flex items-center gap-6">
             <Link
-               href={'/blog/single-page'}
+               href={'/blog/project-details'}
                className="py-4 px-3 bg-primary-content/20 rounded-full w-fit cursor-pointer"
             >
                <svg
@@ -39,7 +38,7 @@ const Pagination = () => {
                </h6>
             </div>
             <Link
-               href="/blog/single-page"
+               href="/blog/project-details"
                className="py-4 px-3 bg-primary rounded-full w-fit cursor-pointer"
             >
                <svg

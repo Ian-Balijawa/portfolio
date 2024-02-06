@@ -24,7 +24,7 @@ const CurrentProjects = () => {
          <div className="p-2.5 md:p-5 xl:p-10">
             <h6 className="text-primary text-base">ABOUT ME</h6>
             <h3 className="text-2xl sm:text-3xl text-base-content mt-4">
-               Hi from Rayan, Software Engineer and Frontend Developer
+               Hi from Rayan, Software Engineer and Full Stack Developer
             </h3>
             <p className="mt-6 text-base text-base-content">
                I have proficient in a range of design tools, including Figma,

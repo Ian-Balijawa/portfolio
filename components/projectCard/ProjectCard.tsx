@@ -4,9 +4,9 @@ import Link from 'next/link'
 const ProjectCard = () => {
    return (
       <div className="bg-base-100 rounded-xl">
-         <Link href="/blog/single-page">
+         <Link href="/blog/project-details">
             <Image
-               src="/cardImg.png"
+               src="/hiu/cardImg.png"
                alt="Picture of the author"
                className="w-full rounded-xl"
                width={324}
@@ -17,7 +17,7 @@ const ProjectCard = () => {
          </Link>
          <div className="p-6">
             <h6 className="text-lg font-semibold text-base-content hover:text-primary hover:duration-300 transition">
-               <Link href="/blog/single-page">How to make web templates</Link>
+               <Link href="/blog/project-details">Home Invest Uganda</Link>
             </h6>
             <p className="mt-2 mb-4 text-base text-base-content/60">
                Lorem ipsum dolor sit amet diam ac consectetur adipiscing elit...

@@ -1,6 +1,132 @@
 import Image from 'next/image'
+import PhotoAlbum from 'react-photo-album'
 
-const BlogDetails = () => {
+const BlogDetails = ({ id }: { id: string }) => {
+   let photos: any[] = []
+   if (id === 'caren') {
+      photos = [
+         {
+            src: '/caren/caren (1).png',
+            width: 340,
+            height: 700,
+         },
+         {
+            src: '/caren/caren (2).png',
+            width: 340,
+            height: 700,
+         },
+         {
+            src: '/caren/caren (3).png',
+            width: 340,
+            height: 700,
+         },
+         {
+            src: '/caren/caren (4).png',
+            width: 340,
+            height: 700,
+         },
+         {
+            src: '/caren/caren (4).png',
+            width: 340,
+            height: 700,
+         },
+         {
+            src: '/caren/caren (5).png',
+            width: 340,
+            height: 700,
+         },
+         {
+            src: '/caren/caren (6).png',
+            width: 340,
+            height: 700,
+         },
+         {
+            src: '/caren/caren (7).png',
+            width: 340,
+            height: 700,
+         },
+      ]
+   } else if (id === 'linkbedsides') {
+      photos = [
+         {
+            src: '/link/link (1).png',
+            width: 340,
+            height: 700,
+         },
+         {
+            src: '/link/link (2).png',
+            width: 340,
+            height: 700,
+         },
+         {
+            src: '/link/link (3).png',
+            width: 340,
+            height: 700,
+         },
+         {
+            src: '/link/link (4).png',
+            width: 340,
+            height: 700,
+         },
+         {
+            src: '/link/link (4).png',
+            width: 340,
+            height: 700,
+         },
+         {
+            src: '/link/link (5).png',
+            width: 340,
+            height: 700,
+         },
+         {
+            src: '/link/link (6).png',
+            width: 340,
+            height: 700,
+         },
+         {
+            src: '/link/link (7).png',
+            width: 340,
+            height: 700,
+         },
+      ]
+   } else if (id === 'dashboard') {
+      photos = []
+   } else {
+      // Default photos array
+      photos = [
+         {
+            src: '/hiu/hiu (1).png',
+            width: 340,
+            height: 700,
+         },
+         {
+            src: '/hiu/hiu (2).png',
+            width: 340,
+            height: 700,
+         },
+         {
+            src: '/hiu/hiu (3).png',
+            width: 340,
+            height: 700,
+         },
+         {
+            src: '/hiu/hiu (4).png',
+            width: 340,
+            height: 700,
+         },
+         {
+            src: '/hiu/hiu (4).png',
+            width: 340,
+            height: 700,
+         },
+         {
+            src: '/hiu/hiu (5).png',
+            width: 340,
+            height: 700,
+         },
+      ]
+   }
+
    return (
       <div>
          <p className="text-xs font-medium text-primary px-3 py-1 bg-primary/10 w-fit rounded-md">
@@ -10,12 +136,15 @@ const BlogDetails = () => {
             The Art of Traveling: Tips and Tricks for a Memorable Journey
          </h1>
          <Image
-            src="/blog-2.png"
+            src="/link/dashboard.png"
             alt=""
             className="w-full mt-8"
             width={795}
             height={462}
          />
+
+         <PhotoAlbum layout="masonry" photos={photos} />
+
          {/* main description  */}
          <p className="text-xl text-base-content/60 mt-8">
             Finally, don&apos;t forget to capture memories of your journey.

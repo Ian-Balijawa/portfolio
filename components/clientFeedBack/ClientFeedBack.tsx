@@ -1,4 +1,3 @@
-import React from 'react'
 import FeedBackSlider from '../slider/FeedBackSlider'
 import Link from 'next/link'
 
@@ -16,7 +15,7 @@ const ClientFeedBack = () => {
                </p>
                <div className="mt-8">
                   <Link
-                     href="/service/single-page"
+                     href="/service/1"
                      className="btn bg-primary-content border-none py-1.5 pl-6 pr-1.5 rounded-full flex items-center justify-center gap-5 w-fit group"
                   >
                      <span className="text-base font-medium text-primary group-hover:text-primary/60 transition group-hover: duration-300">
