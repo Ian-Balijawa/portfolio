@@ -23,7 +23,7 @@ const ProjectCard = () => {
                Lorem ipsum dolor sit amet diam ac consectetur adipiscing elit...
             </p>
             <Link
-               href="/portfolio-single"
+               href="/blog/project-details"
                className="text-primary text-sm font-semibold flex items-center gap-3 hover:opacity-80 transition hover:duration-300"
             >
                <span>View case study</span>

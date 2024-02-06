@@ -69,11 +69,6 @@ const BlogDetails = ({ id }: { id: string }) => {
             height: 700,
          },
          {
-            src: '/link/link (4).png',
-            width: 340,
-            height: 700,
-         },
-         {
             src: '/link/link (5).png',
             width: 340,
             height: 700,
@@ -135,13 +130,15 @@ const BlogDetails = ({ id }: { id: string }) => {
          <h1 className="text-lg sm:text-2xl md:text-3xl xl:text-4xl font-medium text-base-content mt-4">
             The Art of Traveling: Tips and Tricks for a Memorable Journey
          </h1>
-         <Image
-            src="/link/dashboard.png"
-            alt=""
-            className="w-full mt-8"
-            width={795}
-            height={462}
-         />
+         {id !== 'dashboard' ? null : (
+            <Image
+               src="/link/dashboard.png"
+               alt=""
+               className="w-full mt-8"
+               width={795}
+               height={462}
+            />
+         )}
 
          <PhotoAlbum layout="masonry" photos={photos} />
 
