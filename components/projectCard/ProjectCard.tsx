@@ -1,12 +1,12 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-const ProjectCard = () => {
+const ProjectCard = ({ img }: { img: string }) => {
    return (
       <div className="bg-base-100 rounded-xl">
          <Link href="/blog/project-details">
             <Image
-               src="/hiu/cardImg.png"
+               src={img}
                alt="Picture of the author"
                className="w-full rounded-xl"
                width={324}

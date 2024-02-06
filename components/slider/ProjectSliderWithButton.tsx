@@ -1,5 +1,5 @@
 'use client'
-import React, { useRef, useState } from 'react'
+import { useRef, useState } from 'react'
 import Slider from 'react-slick'
 import ProjectCard from '../projectCard/ProjectCard'
 
@@ -67,11 +67,18 @@ const ProjectSliderWithButton = () => {
       ],
    }
 
+   const imgs = [
+      '/hiu/cardImg.png',
+      '/link/dashboard.png',
+      '/link/link.png',
+      '/caren/caren.png',
+   ]
+
    return (
       <div>
          <Slider {...settings} ref={sliderRef}>
-            {[1, 2, 3, 4].map((item, index) => (
-               <ProjectCard key={index} />
+            {imgs.map((item, index) => (
+               <ProjectCard key={item} img={item} />
             ))}
          </Slider>
          <div className="mt-16 flex items-center justify-between px-5 md:px-0">
