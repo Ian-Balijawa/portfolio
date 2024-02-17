@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react'
 import Footer from '@/components/footer/Footer'
 import RightNavbar from '@/components/header/RightNavbar'
-import SideBar from '@/components/sidebar/SideBar'
 import MobileNavbar from '@/components/header/MobileNavbar'
 
 export default function othersLayout({
@@ -19,7 +18,7 @@ export default function othersLayout({
                   className={`w-[300px] shrink-0 desktop_sidebar sticky top-5 mb-10 z-10`}
                >
                   <div className="overflow-y-auto scrollbarStyle h-[calc(100vh-2rem)]">
-                     <SideBar />
+                     {/* <SideBar /> */}
                   </div>
                </div>
                {/* middle content */}
