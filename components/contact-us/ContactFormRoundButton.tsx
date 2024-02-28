@@ -132,7 +132,7 @@ const ContactFormRoundButton = () => {
                         <div className="flex items-center justify-between">
                            <p className="text-sm text-base-content">Email:</p>
                            <span className="text-sm text-base-content/60">
-                              ianbalijawa16@gmail.com
+                              ian@balijawa.com
                            </span>
                         </div>
                         <div className="flex items-center justify-between">
