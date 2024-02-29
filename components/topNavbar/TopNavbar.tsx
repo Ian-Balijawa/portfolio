@@ -1,6 +1,7 @@
 'use client'
 import React, { Fragment } from 'react'
 import useThemes from '@/context/themeProvider'
+import Image from 'next/image'
 
 interface TopNavbarProps {
    NavData: any
@@ -13,27 +14,12 @@ const TopNavbar = ({ NavData }: TopNavbarProps) => {
       <Fragment>
          <nav className="container mx-auto px-5 sm:px-0 pt-8">
             <div className="flex items-center justify-between h-20 bg-base-100 border border-base-content/5 rounded-full px-8 py-4">
-               <svg
-                  className="text-primary"
-                  width="40"
-                  height="40"
-                  viewBox="0 0 40 40"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-               >
-                  <path
-                     d="M0 16C0 7.16344 7.16344 0 16 0H24C15.1634 0 8 7.16344 8 16V40C3.58172 40 0 36.4183 0 32V16Z"
-                     fill="currentColor"
-                  />
-                  <path
-                     d="M24 32C32.8366 32 40 24.8366 40 16V24C40 32.8366 32.8366 40 24 40H18V30.837C19.8529 31.587 21.8782 32 24 32Z"
-                     fill="currentColor"
-                  />
-                  <path
-                     d="M24 24C28.4183 24 32 20.4183 32 16C32 11.5817 28.4183 8 24 8C19.5817 8 16 11.5817 16 16C16 20.4183 19.5817 24 24 24Z"
-                     fill="currentColor"
-                  />
-               </svg>
+               <Image
+                  src="/logo.png"
+                  width={100}
+                  height={60}
+                  alt="profle-image"
+               />
                <div className="hidden lg:flex items-center gap-8 ">
                   {NavData?.map((item: any, index: number) => (
                      <a
