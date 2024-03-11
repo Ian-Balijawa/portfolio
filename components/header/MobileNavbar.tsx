@@ -111,11 +111,13 @@ const MobileNavbar = () => {
             >
                <div className="flex items-center justify-between">
                   {/* logo svg icon  */}
-                  <Image src={'/logo.png'} alt={'logo'} />
+                  <Image
+                     width={100}
+                     height={200}
+                     src={'/logo.png'}
+                     alt={'logo'}
+                  />
                   {/* cross svg icon  */}
-                  <div>
-                     <Image src={'/logo.png'} alt={'logo'} />
-                  </div>
                </div>
                <div className="mt-16 flex flex-col gap-7">
                   {NavData.map((item: any, index: number) => (

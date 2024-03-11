@@ -66,7 +66,7 @@ export default function Home() {
                   <TestimonialSlider />
                </div>
                {/* Blog section section   */}
-               <div className="mt-16 md:mt-24 xl:mt-28" id="blog">
+               {/* <div className="mt-16 md:mt-24 xl:mt-28" id="blog">
                   <div className="mb-10 xl:mb-12">
                      <SmallSubtitle
                         title="Latest Blog"
@@ -74,7 +74,7 @@ export default function Home() {
                      />
                   </div>
                   <BlogSlider />
-               </div>
+               </div> */}
                {/* education section  */}
                <div className="mt-16 md:mt-24 xl:mt-28">
                   <div className="mb-10 xl:mb-12">

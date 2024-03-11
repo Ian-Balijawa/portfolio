@@ -10,7 +10,6 @@ const RightNavbar = () => {
             <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                <div className="flex items-center justify-center bg-base-100  p-3 cursor-pointer">
                   <Image width={100} height={150} src="/logo.png" alt="logo" />
-                  <img src="/logo.png" width={100} height={200} />
                </div>
             </label>
             <ul
