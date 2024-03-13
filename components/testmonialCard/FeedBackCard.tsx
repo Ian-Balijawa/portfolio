@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import React from 'react'
 
 const FeedBackCard = () => {
    return (
@@ -8,7 +7,7 @@ const FeedBackCard = () => {
             <div className="avatar">
                <div className="w-16 rounded-full">
                   <Image
-                     src="/profile.png"
+                     src="/ian.png"
                      alt="Picture of the author"
                      width={64}
                      height={64}

@@ -4,7 +4,6 @@ import Banner from '@/components/banner/Banner'
 import ContactUs from '@/components/contact-us/ContactUs'
 import Education from '@/components/education/Education'
 import Experience from '@/components/experience/Experience'
-import BlogSlider from '@/components/slider/BlogSlider'
 import TestimonialSlider from '@/components/slider/TestimonialSlider'
 import SmallSubtitle from '@/components/subtitle/SmallSubtitle'
 import ProjectSliderWithButton from '@/components/slider/ProjectSliderWithButton'
@@ -30,11 +29,6 @@ export default function Home() {
                   />
                   {/* FlipCard section  */}
                   <div className="mt-10 md:mt-12 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-6">
-                     {/* {[1, 2, 3, 4, 5, 6].map((item: any, index: any) => (
-                        <div key={item.id}>
-                           <FlipCard />
-                        </div>
-                     ))} */}
                      {serviceData.map((item: any, index: any) => (
                         <div key={index}>
                            <ServiceCard data={item} />
@@ -65,17 +59,6 @@ export default function Home() {
                   </div>
                   <TestimonialSlider />
                </div>
-               {/* Blog section section   */}
-               {/* <div className="mt-16 md:mt-24 xl:mt-28" id="blog">
-                  <div className="mb-10 xl:mb-12">
-                     <SmallSubtitle
-                        title="Latest Blog"
-                        description="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum"
-                     />
-                  </div>
-                  <BlogSlider />
-               </div> */}
-               {/* education section  */}
                <div className="mt-16 md:mt-24 xl:mt-28">
                   <div className="mb-10 xl:mb-12">
                      <SmallSubtitle

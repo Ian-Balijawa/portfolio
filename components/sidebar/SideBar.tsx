@@ -8,7 +8,7 @@ const SideBar = () => {
          <div className="w-fit mx-auto relative">
             <Image
                className="rounded-full"
-               src="/person.png"
+               src="/ian.png"
                width={100}
                height={100}
                alt="user"

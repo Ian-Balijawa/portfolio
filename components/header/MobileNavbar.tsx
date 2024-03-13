@@ -15,7 +15,7 @@ const MobileNavbar = () => {
             <div className="flex items-center justify-between p-3 rounded-full  bg-base-100 border border-base-content/5 mb-10 sm:mb-16 h-[60px]">
                <div onClick={() => setProfileOpen(!profileOpen)}>
                   <Image
-                     src="/person.png"
+                     src="/favicon.png"
                      width={36}
                      height={36}
                      alt="profle-image"
