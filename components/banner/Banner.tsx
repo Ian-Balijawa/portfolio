@@ -6,7 +6,7 @@ const Banner = () => {
       <div className="bg-[url('/bg.png')] bg-no-repeat bg-center bg-cover max-h-[492px] bg-base-100 p-6 sm:p-10 xl:p-16 rounded-xl flex items-center justify-center md:justify-between">
          <div className="w-full md:max-w-[260px] lg:max-w-[460px]">
             <h1 className="text-3xl xl:text-5xl font-semibold text-base-content text-center md:text-start leading-9 xl:!leading-[56px]">
-               Software developer, Senior IT consultant and Private contractor
+               Software developer Private contractor & IT consultant
             </h1>
             <p className="mt-4 mb-6 xl:my-6 text-base xl:text-xl text-base-content/60 text-center md:text-start leading-6 xl:leading-7">
                If people have a problem and if no one else can help and if you
