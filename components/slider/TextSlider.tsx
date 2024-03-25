@@ -48,7 +48,7 @@ const TextSlider = () => {
          <Slider {...settings}>
             {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((item, index) => (
                <ul key={index}>
-                  <li className="text-primary-content text-lg">MTN Uganda</li>
+                  <li className="text-primary-content text-lg">TINYLABZ</li>
                </ul>
             ))}
          </Slider>
