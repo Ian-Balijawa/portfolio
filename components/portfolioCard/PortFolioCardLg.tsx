@@ -5,13 +5,13 @@ const PortFolioCardLg = () => {
    return (
       <div className="bg-base-100 rounded-3xl">
          <div className="p-6">
-            <Link href="/blog/project-details">
+            <Link href="/project-details">
                <h3 className="text-xl sm:text-3xl md:text-xl xl:text-3xl text-base-content hover:text-primary hover:duration-300 transition">
                   Portfolio Website
                </h3>
             </Link>
             <p className="mt-1 mb-3 text-base-content/70 text-sm">Web Design</p>
-            <Link href="/blog/project-details">
+            <Link href="/project-details">
                <Image
                   src="/home-1.png"
                   alt="Picture of the author"

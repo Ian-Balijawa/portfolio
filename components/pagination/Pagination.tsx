@@ -5,7 +5,7 @@ const Pagination = () => {
       <div className="flex items-center justify-between">
          <div className="flex items-center gap-6">
             <Link
-               href={'/blog/project-details'}
+               href={'/project-details'}
                className="py-4 px-3 bg-primary-content/20 rounded-full w-fit cursor-pointer"
             >
                <svg
@@ -38,7 +38,7 @@ const Pagination = () => {
                </h6>
             </div>
             <Link
-               href="/blog/project-details"
+               href="/project-details"
                className="py-4 px-3 bg-primary rounded-full w-fit cursor-pointer"
             >
                <svg

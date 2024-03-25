@@ -4,7 +4,7 @@ import Link from 'next/link'
 const BlogCard = () => {
    return (
       <div className="bg-base-100 rounded-xl">
-         <Link href="/blog/project-details">
+         <Link href="/project-details">
             <Image
                src="/hiu/cardImg.png"
                alt="Picture of the author"
@@ -17,15 +17,13 @@ const BlogCard = () => {
          </Link>
          <div className="p-6">
             <h6 className="text-lg font-semibold text-base-content hover:text-primary hover:duration-300 transition">
-               <Link href="/blog/project-details">
-                  How to make web templates
-               </Link>
+               <Link href="/project-details">How to make web templates</Link>
             </h6>
             <p className="mt-2 mb-4 text-base text-base-content/60">
                Lorem ipsum dolor sit amet diam ac consectetur adipiscing elit...
             </p>
             <Link
-               href="/blog/project-details"
+               href="/project-details"
                className="text-primary text-sm font-semibold flex items-center gap-3 hover:opacity-80 transition hover:duration-300"
             >
                <span> Read More</span>

@@ -1,6 +1,7 @@
 'use client'
 import Slider from 'react-slick'
 import TestimonialCard from '../testmonialCard/TestimonialCard'
+import { useMemo } from 'react'
 
 const TestimonialSlider = () => {
    const settings = {
@@ -44,10 +45,36 @@ const TestimonialSlider = () => {
          },
       ],
    }
+
+   const testimonials = useMemo(
+      () => [
+         {
+            name: 'Ian',
+            title: 'Engineer',
+            desc: 'The customer service team was incredibly helpful and went above and beyond to ensure that I had a positive experience with this company.',
+         },
+         {
+            name: 'Alan',
+            title: 'Engineer',
+            desc: 'The customer service team was incredibly helpful and went above and beyond to ensure that I had a positive experience with this company.',
+         },
+         {
+            title: 'Engineer',
+            name: 'Balijawa',
+            desc: 'The customer service team was incredibly helpful and went above and beyond to ensure that I had a positive experience with this company.',
+         },
+         {
+            title: 'Engineer',
+            name: 'Kabanda',
+            desc: 'The customer service team was incredibly helpful and went above and beyond to ensure that I had a positive experience with this company.',
+         },
+      ],
+      []
+   )
    return (
       <Slider {...settings}>
-         {[1, 2, 3, 4, 5, 6].map((item, index) => (
-            <TestimonialCard key={index} />
+         {testimonials.map((item, index) => (
+            <TestimonialCard key={index} {...item} />
          ))}
       </Slider>
    )

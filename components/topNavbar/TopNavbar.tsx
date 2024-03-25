@@ -2,6 +2,7 @@
 import React, { Fragment } from 'react'
 import useThemes from '@/context/themeProvider'
 import Image from 'next/image'
+import Link from 'next/link'
 
 interface TopNavbarProps {
    NavData: any
@@ -14,12 +15,14 @@ const TopNavbar = ({ NavData }: TopNavbarProps) => {
       <Fragment>
          <nav className="container mx-auto px-5 sm:px-0 pt-8">
             <div className="flex items-center justify-between h-20 bg-base-100 border border-base-content/5 rounded-full px-8 py-4">
-               <Image
-                  src="/logo.png"
-                  width={100}
-                  height={60}
-                  alt="profle-image"
-               />
+               <Link href={'/'}>
+                  <Image
+                     src="/logo.png"
+                     width={100}
+                     height={60}
+                     alt="profle-image"
+                  />
+               </Link>
                <div className="hidden lg:flex items-center gap-8 ">
                   {NavData?.map((item: any, index: number) => (
                      <a

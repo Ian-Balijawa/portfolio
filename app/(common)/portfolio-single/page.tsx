@@ -120,7 +120,7 @@ const PortfolioSingle = () => {
                {/* Previous button  */}
                <div className="flex items-center gap-6">
                   <Link
-                     href="/blog/project-details"
+                     href="/project-details"
                      className="flex items-center justify-center px-4 py-5 w-12 h-12 rounded-full border border-dotted border-base-content/20 hover:bg-primary hover:text-primary-content hover:border-primary transition-all group"
                   >
                      <LeftArrowIcon className="text-base-content" />
@@ -141,7 +141,7 @@ const PortfolioSingle = () => {
                      </h2>
                   </div>
                   <Link
-                     href="/blog/project-details"
+                     href="/project-details"
                      className="flex items-center justify-center px-4 py-5 w-12 h-12 rounded-full border border-dotted border-base-content/20 hover:bg-primary hover:border-primary transition-all group"
                   >
                      <RightArrowIcon className="text-base-content" />

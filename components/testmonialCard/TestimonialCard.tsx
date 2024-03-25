@@ -1,6 +1,14 @@
 import Image from 'next/image'
 
-const TestimonialCard = () => {
+const TestimonialCard = ({
+   name,
+   desc,
+   title,
+}: {
+   name: string
+   desc: string
+   title: string
+}) => {
    return (
       <div className="p-6 bg-base-100 rounded-xl">
          <div className="flex items-center gap-4">
@@ -16,15 +24,12 @@ const TestimonialCard = () => {
             </div>
             <div>
                <h5 className="text-lg font-semibold text-base-content">
-                  Edward Leonard
+                  {name}
                </h5>
-               <p className="text-sm text-base-content/60">Software Engineer</p>
+               <p className="text-sm text-base-content/60">{title}</p>
             </div>
          </div>
-         <p className="mt-6 text-base text-base-content/60">
-            The customer service team was incredibly helpful and went above and
-            beyond to ensure that I had a positive experience with this company.
-         </p>
+         <p className="mt-6 text-base text-base-content/60">{desc}</p>
          <div className="flex items-center gap-1 mt-6">
             {[1, 2, 3, 4, 5].map((item: any, index: any) => (
                <div key={index}>

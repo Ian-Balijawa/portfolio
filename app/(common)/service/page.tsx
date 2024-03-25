@@ -2,8 +2,8 @@ import TextSlider from '@/components/slider/TextSlider'
 import Subtitle from '@/components/subtitle/Subtitle'
 import { Metadata } from 'next'
 import { RightArrowIcon } from '@/components/icons'
-import { serviceData } from '../home-2/page'
 import ServiceCard from '@/components/serviceCard/ServiceCard'
+import { serviceData } from '@/app/service-data'
 
 export const metadata: Metadata = {
    title: 'Service page',

@@ -1,135 +1,3 @@
-import { Fragment } from 'react'
-import ContactFormRoundButton from '@/components/contact-us/ContactFormRoundButton'
-import { RightArrowIcon } from '@/components/icons'
-import Largebanner from '@/components/largebanner/Largebanner'
-import HoverBlogSlider from '@/components/slider/HoverBlogSlider'
-import IconSlider from '@/components/slider/IconSlider'
-import ProjectSliderWithButton from '@/components/slider/ProjectSliderWithButton'
-import TestiMonialSliderWithButton from '@/components/slider/TestiMonialSliderWithButton'
-import TextSlider from '@/components/slider/TextSlider'
-import Subtitle from '@/components/subtitle/Subtitle'
-import SubtitleWithButton from '@/components/subtitle/SubtitleWithButton'
-import Link from 'next/link'
-import Resume from '@/components/education/Resume'
-import FlipCard from '@/components/flipCard/FlipCard'
-
-export const metadata = {
-   title: 'Home Page 2',
-   description: 'Home Page description',
-}
-
-const HomeTwo = () => {
-   return (
-      <Fragment>
-         {/* Page Body */}
-         <main className="pb-16 sm:pb-20 md:pb-24 xl:pb-32">
-            <div className="mb-16 sm:mb-20 md:mb-24 xl:mb-32">
-               <Largebanner />
-            </div>
-            {/* icon slider  */}
-            <IconSlider />
-            <div id="service-home2" className="container mx-auto">
-               {/* service section  */}
-               <div className="my-16 sm:my-20 md:my-24 xl:my-32 px-5 md:px-0">
-                  <Subtitle
-                     title="My Services"
-                     description="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum"
-                  />
-                  <div className="mt-10 md:mt-12 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-6">
-                     {serviceData.map((item: any, index: any) => (
-                        <div key={index}>
-                           <FlipCard data={item} />
-                        </div>
-                     ))}
-                  </div>
-               </div>
-            </div>
-            {/* projects section  */}
-            <div
-               id="project-home2"
-               className="py-16 sm:py-20 md:py-24 xl:py-32 bg-base-100"
-            >
-               <div className="container mx-auto px-5 md:px-0">
-                  <SubtitleWithButton
-                     title="Latest Project"
-                     description="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum"
-                     buttonText="View All Work"
-                     buttonLink="/portfolio"
-                  />
-                  <div className="mt-8 sm:mt-12 xl:mt-16">
-                     <ProjectSliderWithButton />
-                  </div>
-               </div>
-            </div>
-            {/* resume section  */}
-            <div
-               id="resume-home2"
-               className="my-16 sm:my-20 md:my-24 xl:my-32 container mx-auto"
-            >
-               <Subtitle
-                  title="My Resume"
-                  description="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum"
-               />
-               <div className="mt-8 md:mt-12 xl:mt-16">
-                  <Resume />
-               </div>
-            </div>
-            {/* testimonial section  */}
-            <div className="py-16 sm:py-20 md:py-24 xl:py-32 bg-base-100">
-               <div className="container mx-auto px-5 md:px-0">
-                  <SubtitleWithButton
-                     title="Testimonials"
-                     description="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum"
-                     buttonText="Start Your Project"
-                     buttonLink="/service"
-                  />
-                  <div className="mt-8 sm:mt-12 xl:mt-16">
-                     <TestiMonialSliderWithButton />
-                  </div>
-               </div>
-            </div>
-
-            {/* blog sliderSection  */}
-            <div
-               id="blog-home2"
-               className="py-16 sm:py-20 md:py-24 xl:py-32 px-5 md:px-0"
-            >
-               <div className="container mx-auto">
-                  <Subtitle
-                     title="Latest Blog"
-                     description="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum"
-                  />
-                  <div className="my-8 sm:mt-6 sm:mb-12 lg:my-16">
-                     <HoverBlogSlider />
-                  </div>
-                  <div className="flex items-center justify-center">
-                     <Link
-                        href="/blog"
-                        className="btn btn-primary border-none py-1.5 pl-6 pr-1.5 rounded-full flex items-center justify-center gap-5 w-fit"
-                     >
-                        <span className="text-base font-medium text-primary-content">
-                           Explore More
-                        </span>
-                        <div className="p-2 bg-primary-content rounded-full">
-                           <RightArrowIcon className="text-primary" />
-                        </div>
-                     </Link>
-                  </div>
-               </div>
-            </div>
-            {/* contact us section   */}
-            <div id="contact-home2">
-               <ContactFormRoundButton />
-            </div>
-            {/* text-slider section   */}
-            <TextSlider />
-         </main>
-      </Fragment>
-   )
-}
-
-export default HomeTwo
-
 export const serviceData = [
    {
       icon: (
@@ -148,7 +16,7 @@ export const serviceData = [
       ),
       title: 'Web Development',
       description:
-         'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim',
+         'Elevate your online presence with bespoke web solutions. From sleek designs to robust functionality, I craft websites that captivate audiences.',
    },
    {
       icon: (
@@ -171,7 +39,7 @@ export const serviceData = [
       ),
       title: 'App Development',
       description:
-         'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim',
+         'Craft cutting-edge mobile experiences tailored to your vision. From concept to launch, I bring your app ideas to life with precision.',
    },
    {
       icon: (
@@ -196,7 +64,7 @@ export const serviceData = [
       ),
       title: 'UI / UX Design',
       description:
-         'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim',
+         "Immerse users in seamless digital journeys with captivating UI/UX design. Elevate your product's appeal and usability with intuitive interfaces.",
    },
    {
       icon: (
@@ -223,7 +91,7 @@ export const serviceData = [
       ),
       title: 'Graphics Design',
       description:
-         'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim',
+         "Transform your brand's identity with stunning graphic designs. From logos to marketing collateral, I create visuals that captivate and resonate",
    },
    {
       icon: (
@@ -242,7 +110,7 @@ export const serviceData = [
       ),
       title: 'Digital Marketing',
       description:
-         'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim',
+         'Boost your brand online with strategic digital marketing. From social media to SEO, I drive engagement and growth for your business.',
    },
    {
       icon: (
@@ -265,6 +133,6 @@ export const serviceData = [
       ),
       title: 'Video Editing',
       description:
-         'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim',
+         'Elevate your brand with professional video editing and production. From corporate videos to social media content, I bring stories to life.',
    },
 ]

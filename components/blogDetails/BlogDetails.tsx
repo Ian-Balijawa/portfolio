@@ -3,7 +3,8 @@ import PhotoAlbum from 'react-photo-album'
 
 const BlogDetails = ({ id }: { id: string }) => {
    let photos: any[] = []
-   if (id === 'caren') {
+
+   if (id === '1') {
       photos = [
          {
             src: '/caren/caren (1).png',
@@ -46,7 +47,7 @@ const BlogDetails = ({ id }: { id: string }) => {
             height: 700,
          },
       ]
-   } else if (id === 'linkbedsides') {
+   } else if (id === '2') {
       photos = [
          {
             src: '/link/link (1).png',
@@ -84,10 +85,7 @@ const BlogDetails = ({ id }: { id: string }) => {
             height: 700,
          },
       ]
-   } else if (id === 'dashboard') {
-      photos = []
-   } else {
-      // Default photos array
+   } else if (id === '3') {
       photos = [
          {
             src: '/hiu/hiu (1).png',
@@ -127,22 +125,21 @@ const BlogDetails = ({ id }: { id: string }) => {
          <p className="text-xs font-medium text-primary px-3 py-1 bg-primary/10 w-fit rounded-md">
             May 9, 2021
          </p>
-         <h1 className="text-lg sm:text-2xl md:text-3xl xl:text-4xl font-medium text-base-content mt-4">
+         <h1 className="text-lg sm:text-2xl md:text-3xl mb-10 xl:text-4xl font-medium text-base-content mt-4">
             The Art of Traveling: Tips and Tricks for a Memorable Journey
          </h1>
-         {id !== 'dashboard' ? null : (
+
+         {id === '4' ? (
             <Image
-               src="/link/dashboard.png"
-               alt=""
-               className="w-full mt-8"
-               width={795}
-               height={462}
+               src={'/link/dashboard.png'}
+               alt={'link bedsides dashboard'}
+               width={600}
+               height={700}
             />
+         ) : (
+            <PhotoAlbum layout="masonry" photos={photos} />
          )}
 
-         <PhotoAlbum layout="masonry" photos={photos} />
-
-         {/* main description  */}
          <p className="text-xl text-base-content/60 mt-8">
             Finally, don&apos;t forget to capture memories of your journey.
             Whether it&apos;s through photographs, journaling, or souvenirs,
@@ -151,7 +148,6 @@ const BlogDetails = ({ id }: { id: string }) => {
             to be present in the moment and not let technology distract you from
             the beauty of your surroundings.
          </p>
-         {/* heading with description  */}
          <div className="mt-8">
             <h3 className="font-semibold text-base-content text-2xl">
                Research Your Destination

@@ -19,26 +19,26 @@ export default function CommonLayout({
 const NavData = [
    {
       title: 'Home',
-      link: '/home-2',
+      link: '/',
    },
    {
       title: 'About',
-      link: '/home-2#resume-home2',
+      link: '/#resume-home2',
    },
    {
       title: 'Services',
-      link: '/home-2#service-home2',
+      link: '/#service-home2',
    },
    {
       title: 'Projects',
-      link: '/home-2#project-home2',
+      link: '/#project-home2',
    },
    {
       title: 'Blog',
-      link: '/home-2#blog-home2',
+      link: '/#blog-home2',
    },
    {
       title: 'Contact',
-      link: '/home-2#contact-home2',
+      link: '/#contact-home2',
    },
 ]

@@ -97,7 +97,7 @@ const PortfolioCards = () => {
                            height={324}
                         />
                         <Link
-                           href="/blog/project-details"
+                           href="/project-details"
                            className="bg-primary/80 w-full h-full absolute top-0 rounded-xl flex items-center justify-center opacity-0 group-hover:opacity-100 transition group-hover:duration-500"
                         >
                            <svg

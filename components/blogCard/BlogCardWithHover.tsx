@@ -4,7 +4,7 @@ import Link from 'next/link'
 const BlogCardWithHover = () => {
    return (
       <div className="bg-base-100 rounded-xl before:rounded-tr-xl after:rounded-bl-xl p-8 w-fit card">
-         <Link href="/blog/project-details" className="z-10">
+         <Link href="/project-details" className="z-10">
             <Image
                src="/hiu/cardImg.png"
                width={320}
@@ -16,14 +16,14 @@ const BlogCardWithHover = () => {
             />
          </Link>
          <h2 className="text-xl font-semibold text-base-content hover:text-primary transition duration-300 ease-in-out mt-4 line-clamp-1 z-10">
-            <Link href="/blog/project-details">How to make web tempates</Link>
+            <Link href="/project-details">How to make web tempates</Link>
          </h2>
          <p className="text-base-content/50 mt-2 line-clamp-3 max-w-[412px]">
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
             sint. Velit officia consequat duis enim velit mollit...
          </p>
          <Link
-            href="/blog/project-details"
+            href="/project-details"
             className="flex items-center gap-3.5 text-base font-medium text-primary mt-3 hover:opacity-70 duration-300 ease-in-out cursor-pointer z-10"
          >
             <span> Read More</span>
