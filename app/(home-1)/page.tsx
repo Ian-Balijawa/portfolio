@@ -61,7 +61,7 @@ export default function Home() {
                      title="My Services"
                      description="With a commitment to excellence and a passion for innovation, I offer a range of services."
                   />
-                  <div className="mt-10 md:mt-12 grid grid-cols-1 sm:grid-cols-2  md:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-6">
+                  <div className="mt-10 md:mt-12 grid grid-cols-1 sm:grid-cols-2  md:grid-cols-3 xl:grid-cols-3 gap-4 md:gap-6">
                      {serviceData.map((item: any, index: any) => (
                         <div key={index}>
                            <ServiceCard data={item} />
@@ -73,7 +73,7 @@ export default function Home() {
                <main className="py-16 sm:py-20 md:py-24 xl:py-32">
                   <div className="container mx-auto px-5 md:px-0">
                      <Subtitle title="Show case" description="" />
-                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-2 gap-8 items-center mt-10 xl:mt-16">
+                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-3 gap-8 items-center mt-10 xl:mt-16">
                         {projects.map((item, index) => (
                            <div key={index}>
                               <ProjectCard {...item} />
