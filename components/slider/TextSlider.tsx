@@ -46,9 +46,17 @@ const TextSlider = () => {
    return (
       <div className="p-4 bg-primary">
          <Slider {...settings}>
-            {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((item, index) => (
+            {[
+               'TINYLABZ',
+               'GDEXPERTS',
+               'MTN',
+               'DEVANALYST',
+               'BARIKITECH',
+               'SIGNUMADVOCATES',
+               'ACCELERATED-TECHNOSOFT',
+            ].map((item, index) => (
                <ul key={index}>
-                  <li className="text-primary-content text-lg">TINYLABZ</li>
+                  <li className="text-primary-content text-lg">{item}</li>
                </ul>
             ))}
          </Slider>
