@@ -72,7 +72,10 @@ export default function Home() {
 
                <main className="py-16 sm:py-20 md:py-24 xl:py-32">
                   <div className="container mx-auto px-5 md:px-0">
-                     <Subtitle title="Show case" description="" />
+                     <Subtitle
+                        title="Show case"
+                        description="Discover my exceptional projects, crafted with innovation and excellence. Let's elevate your digital presence together."
+                     />
                      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-3 gap-8 items-center mt-10 xl:mt-16">
                         {projects.map((item, index) => (
                            <div key={index}>
@@ -107,7 +110,7 @@ export default function Home() {
                   <div className="mb-10 xl:mb-12">
                      <SmallSubtitle
                         title="Education"
-                        description="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum"
+                        description="Unlocking the foundations of my expertise, my educational journey spans degrees in Computer Science and certifications in IT disciplines."
                      />
                   </div>
                   <Education />
@@ -116,7 +119,7 @@ export default function Home() {
                   <div className="mb-10 xl:mb-12">
                      <SmallSubtitle
                         title="Experience"
-                        description="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum"
+                        description="Gain insights into my journey and expertise in IT and software development. Explore my hands-on experience in web and mobile app development"
                      />
                   </div>
                   <Experience />

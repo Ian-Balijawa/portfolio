@@ -89,9 +89,9 @@ export const serviceData = [
             />
          </svg>
       ),
-      title: 'Consulting Services',
+      title: 'Consultancy',
       description:
-         'Leverage expert guidance to navigate complex challenges and seize opportunities. Drive innovation and achieve sustainable growth with strategic consulting.',
+         'Leverage expert guidance to navigate complex challenges and seize opportunities. Drive innovation & achieve sustainable growth with consultancy.',
    },
    {
       icon: (
@@ -110,7 +110,7 @@ export const serviceData = [
             />
          </svg>
       ),
-      title: 'Sys Administration',
+      title: 'System Admin',
       description:
          'Optimize IT infrastructure for seamless operations. From network to servers, I ensure reliability for efficient system performance.',
    },
@@ -131,9 +131,9 @@ export const serviceData = [
             />
          </svg>
       ),
-      title: 'DB Administration',
+      title: 'Database Admin',
       description:
-         'Manage & optimize databases to ensure data integrity, and performance. From schema design to backup and recovery strategies, providing solutions to meet your database needs.',
+         'Manage & optimize databases to ensure data integrity, performance from schema design to backup and recovery strategies, providing solutions to meet your db needs.',
    },
    {
       icon: (

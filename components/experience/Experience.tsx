@@ -16,7 +16,7 @@ const Experience = () => {
                      </h5>
                      <div className="flex items-center gap-4 mt-2 xl:mt-3">
                         <p className="text-base text-base-content">
-                           Backend Developer
+                           {item.post.split('(')[0]}
                         </p>
                         <p className="text-xs font-medium text-primary px-3 py-1 bg-primary/10 w-fit rounded-md">
                            {item.time}
@@ -42,24 +42,38 @@ export default Experience
 
 const ExperienceData = [
    {
-      company: 'TLABS',
-      time: 'Jan 1016 - Dec 2021',
-      post: 'Lead Web Designer',
+      company: 'GDEXPERTS',
+      time: 'Jan 2020 - Present',
+      post: 'Frontend Developer (React.js)',
       description:
-         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.',
+         'Developed responsive user interfaces using React.js, leveraging state management libraries like Redux. Collaborated closely with design and backend teams to deliver high-quality web applications.',
    },
    {
       company: 'TLABS',
-      time: 'Jan 1016 - Dec 2021',
-      post: 'Lead Web Designer',
+      time: 'Jan 2016 - Dec 2021',
+      post: 'Backend Developer (NodeJS)',
       description:
-         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.',
+         'Designed, developed, and maintained scalable server-side applications and databases, ensuring optimal performance and seamless integration with front-end systems.',
+   },
+   {
+      company: 'ACCELERATED TECHNOSOFT',
+      time: 'Jan 2016 - Dec 2021',
+      post: 'System Administrator',
+      description:
+         'Managed and optimized IT infrastructure, ensuring seamless operations and security. Implemented innovative solutions and technologies to meet business needs.',
+   },
+   {
+      company: 'BARIKITECH',
+      time: 'Jan 2016 - Dec 2021',
+      post: 'IT Consultant',
+      description:
+         'Provided expert guidance and solutions in IT strategy, infrastructure management, and technology implementation. Led teams in delivering innovative solutions exceeding client expectations.',
    },
    {
       company: 'TLABS',
-      time: 'Jan 1016 - Dec 2021',
-      post: 'Lead Web Designer',
+      time: 'Jan 2016 - Dec 2021',
+      post: 'Software Engineer',
       description:
-         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.',
+         'Contributed to the full software development lifecycle, from requirements gathering to deployment, utilizing agile methodologies to deliver high-quality software solutions.',
    },
 ]

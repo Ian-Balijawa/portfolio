@@ -5,8 +5,9 @@ const ContactUs = () => {
             Get In Touch
          </h2>
          <p className="text-base text-base-content/60 mt-4 md:max-w-[438px] w-full mx-auto text-center">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis enim velit mollit. lorem ipsum
+            Feel free to contact me for any inquiries, assistance, or
+            collaboration opportunities. Im here to help and eager to hear from
+            you!
          </p>
 
          <div className="flex flex-wrap md:flex-nowrap lg:grid lg:grid-cols-7 md:gap-6 mt-12">
