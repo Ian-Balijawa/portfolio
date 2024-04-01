@@ -70,7 +70,7 @@ export default function Home() {
                   </div>
                </div>
 
-               <main className="py-16 sm:py-20 md:py-24 xl:py-32">
+               <main id="projects" className="py-16 sm:py-20 md:py-24 xl:py-32">
                   <div className="container mx-auto px-5 md:px-0">
                      <Subtitle
                         title="Show case"
@@ -97,7 +97,7 @@ export default function Home() {
                   </div>
                </main>
 
-               <div className="mt-16 md:mt-24 xl:mt-28">
+               <div id="testimonials" className="mt-16 md:mt-24 xl:mt-28">
                   <div className="mb-10 xl:mb-12">
                      <SmallSubtitle
                         title="Testimonials"
@@ -106,7 +106,7 @@ export default function Home() {
                   </div>
                   <TestimonialSlider />
                </div>
-               <div className="mt-16 md:mt-24 xl:mt-28">
+               <div id="education" className="mt-16 md:mt-24 xl:mt-28">
                   <div className="mb-10 xl:mb-12">
                      <SmallSubtitle
                         title="Education"
@@ -115,7 +115,7 @@ export default function Home() {
                   </div>
                   <Education />
                </div>
-               <div className="mt-16 md:mt-24 xl:mt-28">
+               <div id="experience" className="mt-16 md:mt-24 xl:mt-28">
                   <div className="mb-10 xl:mb-12">
                      <SmallSubtitle
                         title="Experience"
