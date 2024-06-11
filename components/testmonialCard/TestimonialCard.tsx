@@ -3,10 +3,12 @@ import Image from 'next/image'
 const TestimonialCard = ({
    name,
    desc,
+   img,
    title,
 }: {
    name: string
    desc: string
+   img: string
    title: string
 }) => {
    return (
@@ -15,7 +17,7 @@ const TestimonialCard = ({
             <div className="avatar">
                <div className="w-16 rounded-full">
                   <Image
-                     src="/ian.png"
+                     src={img}
                      alt="Picture of the author"
                      width={64}
                      height={64}

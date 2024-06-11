@@ -2,7 +2,10 @@
 const nextConfig = {
    // image optimization
    images: {
-      domains: ['placehold.it'],
+      domains: [
+         'placehold.it',
+         'media.licdn.com',
+      ],
    },
 }
 
