@@ -1,4 +1,4 @@
-const ContactUs = () => {
+const ContactMe = () => {
    return (
       <section className="container mx-auto py-20 lg:py-28">
          <h2 className="text-3xl lg:text-4xl font-bold text-base-content text-center">
@@ -109,19 +109,13 @@ const ContactUs = () => {
                      <div className="flex items-center justify-between">
                         <p className="text-sm text-base-content">Email:</p>
                         <span className="text-sm text-base-content/60">
-                           ian@balijawa.com
+                           ianbalijawa16@gmail.com
                         </span>
                      </div>
                      <div className="flex items-center justify-between">
                         <p className="text-sm text-base-content">Skype:</p>
                         <span className="text-sm text-base-content/60">
-                           @ianbalijawa
-                        </span>
-                     </div>
-                     <div className="flex items-center justify-between">
-                        <p className="text-sm text-base-content">Telegram:</p>
-                        <span className="text-sm text-base-content/60">
-                           @ianbalijawa
+                           live:.cid.bc7a64569cbe5707
                         </span>
                      </div>
                   </div>
@@ -147,7 +141,7 @@ const ContactUs = () => {
                      <div className="flex items-center justify-between">
                         <p className="text-sm text-base-content">Support:</p>
                         <span className="text-sm text-base-content/60">
-                           15369
+                           -----
                         </span>
                      </div>
                      <div className="flex items-center justify-between">
@@ -170,4 +164,4 @@ const ContactUs = () => {
    )
 }
 
-export default ContactUs
+export default ContactMe

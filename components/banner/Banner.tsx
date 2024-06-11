@@ -46,8 +46,8 @@ const Banner = () => {
                src="/ian.png"
                alt="Picture of the author"
                className="h-full"
-               width={400}
-               height={500}
+               width={385}
+               height={300}
                placeholder="empty"
             />
          </div>

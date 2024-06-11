@@ -111,21 +111,13 @@ const ContactUsWithBgColor = () => {
                      <div className="flex items-center justify-between">
                         <p className="text-sm text-primary-content">Email:</p>
                         <span className="text-sm text-primary-content">
-                           ian@balijawa.com
+                           ianbalijawa16@gmail.com
                         </span>
                      </div>
                      <div className="flex items-center justify-between">
                         <p className="text-sm text-primary-content">Skype:</p>
                         <span className="text-sm text-primary-content">
-                           @ianbalijawa
-                        </span>
-                     </div>
-                     <div className="flex items-center justify-between">
-                        <p className="text-sm text-primary-content">
-                           Telegram:
-                        </p>
-                        <span className="text-sm text-primary-content">
-                           @ianbalijawa
+                           live:.cid.bc7a64569cbe5707
                         </span>
                      </div>
                   </div>
@@ -151,7 +143,7 @@ const ContactUsWithBgColor = () => {
                      <div className="flex items-center justify-between">
                         <p className="text-sm text-primary-content">Support:</p>
                         <span className="text-sm text-primary-content">
-                           15369
+                           -----
                         </span>
                      </div>
                      <div className="flex items-center justify-between">

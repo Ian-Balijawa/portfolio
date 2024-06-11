@@ -49,23 +49,23 @@ const TestimonialSlider = () => {
    const testimonials = useMemo(
       () => [
          {
-            name: 'Ian',
-            title: 'Engineer',
+            name: 'Kabba Joseph',
+            title: 'Software engineer',
             desc: 'The customer service team was incredibly helpful and went above and beyond to ensure that I had a positive experience with this company.',
          },
          {
-            name: 'Alan',
-            title: 'Engineer',
+            name: 'Bk roland',
+            title: 'Software engineer',
             desc: 'The customer service team was incredibly helpful and went above and beyond to ensure that I had a positive experience with this company.',
          },
          {
-            title: 'Engineer',
-            name: 'Balijawa',
+            title: 'Software engineer',
+            name: 'Ronald Muwawu',
             desc: 'The customer service team was incredibly helpful and went above and beyond to ensure that I had a positive experience with this company.',
          },
          {
-            title: 'Engineer',
-            name: 'Kabanda',
+            title: 'Software engineer',
+            name: 'Sharif Kabanda',
             desc: 'The customer service team was incredibly helpful and went above and beyond to ensure that I had a positive experience with this company.',
          },
       ],

@@ -1,6 +1,5 @@
 'use client'
-import React, { useState } from 'react'
-import Education from './Education'
+import { useState } from 'react'
 import Experience from '../experience/Experience'
 
 const Resume = () => {
@@ -34,9 +33,7 @@ const Resume = () => {
             ))}
          </div>
          <div className="col-span-12 lg:col-span-9 mt-8 md:mt-0">
-            {view === 1 && <Education />}
             {view === 2 && <Experience />}
-            {view === 3 && <Education />}
          </div>
       </div>
    )

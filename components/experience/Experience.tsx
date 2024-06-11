@@ -44,21 +44,21 @@ const ExperienceData = [
    {
       company: 'GDEXPERTS',
       time: 'Jan 2020 - Present',
-      post: 'Frontend Developer (React.js)',
+      post: 'Frontend Developer',
       description:
          'Developed responsive user interfaces using React.js, leveraging state management libraries like Redux. Collaborated closely with design and backend teams to deliver high-quality web applications.',
    },
    {
       company: 'TLABS',
       time: 'Jan 2016 - Dec 2021',
-      post: 'Backend Developer (NodeJS)',
+      post: 'Backend Developer',
       description:
          'Designed, developed, and maintained scalable server-side applications and databases, ensuring optimal performance and seamless integration with front-end systems.',
    },
    {
       company: 'ACCELERATED TECHNOSOFT',
       time: 'Jan 2016 - Dec 2021',
-      post: 'System Administrator',
+      post: 'DevOps',
       description:
          'Managed and optimized IT infrastructure, ensuring seamless operations and security. Implemented innovative solutions and technologies to meet business needs.',
    },
@@ -72,7 +72,7 @@ const ExperienceData = [
    {
       company: 'TLABS',
       time: 'Jan 2016 - Dec 2021',
-      post: 'Software Engineer',
+      post: 'Full-Stack Engineer',
       description:
          'Contributed to the full software development lifecycle, from requirements gathering to deployment, utilizing agile methodologies to deliver high-quality software solutions.',
    },
