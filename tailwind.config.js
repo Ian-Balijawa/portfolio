@@ -15,16 +15,14 @@ module.exports = {
       extend: {},
    },
 
-   // add daisyUI plugin
-   plugins: [require('daisyui')],
+   plugins: [require( 'daisyui' )],
 
-   // daisyUI config (optional)
    daisyui: {
       styled: true,
       themes: [
          {
             light: {
-               ...require('daisyui/src/colors/themes')['[data-theme=light]'],
+               ...require( 'daisyui/src/colors/themes' )['[data-theme=light]'],
                primary: '#F78F42',
                'primary-content': '#131313',
                'primary-focus': '#EA7C2B',
@@ -49,7 +47,7 @@ module.exports = {
          },
          {
             dark: {
-               ...require('daisyui/src/colors/themes')['[data-theme=dark]'],
+               ...require( 'daisyui/src/colors/themes' )['[data-theme=dark]'],
                primary: '#F78F42',
                'primary-content': '#131313',
                'primary-focus': '#EA7C2B',
