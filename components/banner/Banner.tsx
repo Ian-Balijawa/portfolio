@@ -14,7 +14,7 @@ const Banner = () => {
             </p>
             <div className="flex items-center justify-center md:justify-start">
                <Link
-                  href={'#'}
+                  href={'#contact-us'}
                   className="btn border-none btn-primary py-1.5 pl-6 pr-1.5 rounded-full flex items-center justify-center gap-5 w-fit"
                >
                   <span className="text-base font-medium text-primary-content">

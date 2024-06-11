@@ -40,12 +40,6 @@ export default function Home() {
             img: '/link/dashboard.png',
             id: '4',
          },
-         {
-            title: 'Caren',
-            desc: 'Caren Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint',
-            img: '/caren/caren.png',
-            id: '1',
-         },
       ],
 
       []

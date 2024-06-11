@@ -4,12 +4,6 @@ const ContactUs = () => {
          <h2 className="text-3xl lg:text-4xl font-bold text-base-content text-center">
             Get In Touch
          </h2>
-         <p className="text-base text-base-content/60 mt-4 md:max-w-[438px] w-full mx-auto text-center">
-            Feel free to contact me for any inquiries, assistance, or
-            collaboration opportunities. Im here to help and eager to hear from
-            you!
-         </p>
-
          <div className="flex flex-wrap md:flex-nowrap lg:grid lg:grid-cols-7 md:gap-6 mt-12">
             <div className="lg:col-span-5 bg-base-100 p-6 lg:p-10 rounded-xl w-full">
                <h3 className="text-xl font-bold pb-6">Leave a Message</h3>

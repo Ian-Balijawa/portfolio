@@ -4,10 +4,6 @@ const ContactUsWithBgColor = () => {
          <h2 className="text-2xl md:text-3xl xl:text-5xl text-base-content font-bold text-center">
             Get In Touch
          </h2>
-         <p className="md:max-w-[519px] text-center text-base text-base-content/60 mx-auto mt-4">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis enim velit mollit. lorem ipsum
-         </p>
          <div className="flex flex-wrap md:flex-nowrap lg:grid lg:grid-cols-7  mt-12">
             <div className="lg:col-span-5 bg-base-100 p-6 lg:p-10  fullBorder formBox w-full">
                <h3 className="text-xl font-bold pb-6">Leave a Message</h3>
