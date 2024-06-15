@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import Slider from 'react-slick'
 
-const TextSlider = () => {
+const TechLogoSlider = () => {
    const settings = {
       className: 'center',
       arrows: false,
@@ -62,15 +62,17 @@ const TextSlider = () => {
                '/vite.svg',
                '/vue.png',
             ].map((item, index) => (
-               <ul key={index}>
-                  <li className="text-primary-content text-lg">
-                     <Image src={item} width={250} height={1} alt={item} />
-                  </li>
-               </ul>
+               <Image
+                  key={index}
+                  src={item}
+                  width={50}
+                  height={100}
+                  alt={item}
+               />
             ))}
          </Slider>
       </div>
    )
 }
 
-export default TextSlider
+export default TechLogoSlider
