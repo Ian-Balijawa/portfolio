@@ -1,4 +1,5 @@
 'use client'
+import Image from 'next/image'
 import Slider from 'react-slick'
 
 const TextSlider = () => {
@@ -44,19 +45,27 @@ const TextSlider = () => {
       ],
    }
    return (
-      <div className="p-4 bg-primary">
+      <div className="p-4 bg-transparent">
          <Slider {...settings}>
             {[
-               'TINYLABZ',
-               'GDEXPERTS',
-               'MTN',
-               'DEVANALYST',
-               'BARIKITECH',
-               'SIGNUMADVOCATES',
-               'ACCELERATED-TECHNOSOFT',
+               '/nodejs.png',
+               '/devops.png',
+               '/nest.png',
+               '/kubernetes.png',
+               '/docker.png',
+               '/Expressjs.png',
+               '/aws.png',
+               '/next.png',
+               '/react.png',
+               '/ts.svg',
+               '/js.png',
+               '/vite.svg',
+               '/vue.png',
             ].map((item, index) => (
                <ul key={index}>
-                  <li className="text-primary-content text-lg">{item}</li>
+                  <li className="text-primary-content text-lg">
+                     <Image src={item} width={250} height={1} alt={item} />
+                  </li>
                </ul>
             ))}
          </Slider>

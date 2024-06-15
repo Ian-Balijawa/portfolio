@@ -44,7 +44,7 @@ const ExperienceData = [
    {
       company: 'GDEXPERTS',
       time: 'Jan 2020 - Present',
-      post: 'Frontend Developer',
+      post: 'Core Frontend Engineer',
       description:
          'Developed responsive user interfaces using React.js, leveraging state management libraries like Redux. Collaborated closely with design and backend teams to deliver high-quality web applications.',
    },
@@ -65,12 +65,12 @@ const ExperienceData = [
    {
       company: 'BARIKITECH',
       time: 'Jan 2016 - Dec 2021',
-      post: 'IT Consultant',
+      post: 'Senior IT Consultant',
       description:
          'Provided expert guidance and solutions in IT strategy, infrastructure management, and technology implementation. Led teams in delivering innovative solutions exceeding client expectations.',
    },
    {
-      company: 'TLABS',
+      company: 'ANDELA UGANDA',
       time: 'Jan 2016 - Dec 2021',
       post: 'Full-Stack Engineer',
       description:
