@@ -5,7 +5,6 @@ import Experience from '@/components/experience/Experience'
 import TestimonialSlider from '@/components/slider/TestimonialSlider'
 import SmallSubtitle from '@/components/subtitle/SmallSubtitle'
 import ServiceCard from '@/components/serviceCard/ServiceCard'
-import TechLogoSlider from '@/components/slider/TechLogoSlider'
 import { serviceData } from '@/app/service-data'
 import ContactMe from '@/components/contact-me/ContactMe'
 
@@ -34,11 +33,6 @@ export default function Home() {
                      ))}
                   </div>
                </div>
-
-               <main id="projects" className="py-4">
-                  <TechLogoSlider />
-               </main>
-
                <div id="testimonials" className="mt-16">
                   <div className="mb-10 xl:mb-12">
                      <SmallSubtitle
